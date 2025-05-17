@@ -1,0 +1,79 @@
+<marquee behavior="slow" direction="left"><h1>Course Regisrtation Form</h1></marquee>
+
+<form action="index1.html" autocomplete="">
+
+    <fieldset>
+        <legend>Personal details</legend>
+        <table><tr>
+            <td><label for="" >First name</label></td>
+            <td><input type="text" name="fname required placeholder="ex-ravi" ><br></td>
+        </tr>
+        <tr>
+            <td><label for="">surname</label></td>
+            <td><input type="text" name="" id="" required placeholder="ex-M" name="surname"><br></td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile number</label></td>
+            <td><input type="tel" required placeholder="ex-123456678" name="mobile"><br></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email" required placeholder="ex-ravi@gmail.com" name="email"> <br></td>
+        </tr>
+        <tr>
+            <td><label for="">Password</label></td>
+            <td><input type="password" required placeholder="112233" maxlength="16" minlength="8" name="password"><br></td>
+        </tr>
+        <tr>
+            <td><label for="">Conform Password</label></td>
+            <td><input type="password" required maxlength="16" minlength="8"><br></td>
+        </tr>
+        <tr>
+            <td><label for="">DOB</label></td>
+            <td><input type="date" placeholder="00/00/0000" name="dob"><br></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td><input type="radio" name="Gender" value="m">Male
+                <input type="radio" name="Gender" value="f">Female
+                <input type="radio" name="Gender" value="o">Other
+            </td><br>
+        </tr>
+        <tr>
+            <td><label for="">Select country</label></td>
+            <td><select name="country" id=""> 
+                <option value="I">India</option>
+                <option value="E">England</option>
+                <option value="U">UAE</option></select><br></td>
+        </tr>
+        <tr>
+            <td><label for="">Upload picture</label></td>
+            <td><input type="file" name="pic" id=""><br></td>
+        </tr>
+        <td><input type="reset" name="" id=""></td>
+        <td><input type="submit" name="" id=""></td>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Course details</legend>
+        <tr><td>
+            <label for="">Select course</label><br>
+            <select name="" id="">
+                <option value="">Python full stack</option>
+                <option value="">Java full stack</option>
+            </select><br>
+        </td></tr>
+        <tr><td>
+            <label for="">Delivery Mode</label>
+        </td>
+    <td>
+    <input type="radio" name="mode" id="">ONLINE
+    <input type="radio" name="mode" id="">OFFLINE
+    </td><br>
+    </tr>
+    <tr>
+        <td><label for="">Comments</label></td><br>
+        <textarea name="" id="" rows="5" cols="30"></textarea>
+    </tr>
+    </fieldset>
+</form>
